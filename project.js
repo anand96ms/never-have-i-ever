@@ -37,7 +37,7 @@ var list = [
   "Never have I ever used a pick-up line on someone",
   "Never have I ever pretended to laugh at a joke which wasn't funny",
   "Never have I ever locked my keys in my car/bike/house",
-  "Never have I ever felt lonliest person in the world",
+  "Never have I ever felt loneliest person in the world",
 ];
 var usedList = [];
 
