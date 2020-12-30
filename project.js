@@ -3,20 +3,20 @@ var list = [
   "Never have I ever given wrong direction when asked for an address",
   "Never have I ever lived alone",
   "Never have I ever fought in public",
-  "Never have I ever taken part in a talent show - Explain",
+  "Never have I ever taken part in a talent show",
   "Never have I ever lied to a boss",
   "Never have I ever went 24 hours without showering",
   "Never have I ever got a tattoo",
   "Never have I ever Got thrown out of class as punishment",
-  "Never have I ever pretended to have network issues",
+  "Never have I ever pretended to have network/vdi issues",
   "Never have I ever binged an entire series in one day",
-  "Never Have I Ever Had A Near-Death Experience - Explain",
+  "Never Have I Ever Had A Near-Death Experience",
   "Never Have I Ever Been Caught Talking To Myself",
   "Never Have I Ever Ordered Food And Didn’t Have Enough For The Bill",
   "Never Have I Ever Forgotten An Anniversary in this year",
   "Never Have I Ever Hidden In The Bathroom At Work To Kill Time",
-  "Never Have I Ever Stolen Office Supplies From Work",
-  "Never have I ever scored over 150 while bowling - Explain",
+  "Never Have I Ever Stolen something from office/colleague",
+  "Never have I ever scored over 150 while bowling",
   "Never Have I Ever Surfed The Internet At Work",
   "Never Have I Ever Walked Around With My Pants Zipper Open",
   "Never have I ever Escaped from class",
@@ -37,6 +37,7 @@ var list = [
   "Never have I ever used a pick-up line on someone",
   "Never have I ever pretended to laugh at a joke which wasn't funny",
   "Never have I ever locked my keys in my car/bike/house",
+  "Never have I ever felt lonliest person in the world",
 ];
 var usedList = [];
 
@@ -71,7 +72,9 @@ function findTask(){
     modal.style.display = "block";
     //alert("Next Question is - "+"\n"+list[index])
   }else{
-    alert('Please add more tasks to the list!!')
+    document.getElementById("modalId").innerHTML = '<strong>'+'Never have I ever lied in this game!!'+'</strong>';
+    modal.style.display = "block";
+    //alert('Never have i ever lied in this game!!')
   }
 
   list.splice(index,1);
