@@ -1,0 +1,91 @@
+body {
+  background-image: url(/assets/never.jpg), url(/assets/2021.jpg), url(/assets/bg3.jpg);
+  background-position:  right top,left top,right bottom;
+  background-repeat: no-repeat no-repeat;
+  background-size: 25% 25%,25% 25%,100% 100%;
+  padding: 15px;
+  background-blend-mode: hard-light;
+}
+html, body {
+  height: 100%;
+}
+h1 {text-align: center;
+color:red}
+* {
+  box-sizing: border-box;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+.header {
+  padding: 26px;
+    text-align: center;
+}
+.footer {
+   position: fixed;
+   left: 37%;
+   bottom: 0;
+   width: 25%;
+   text-align: center;
+       padding: 5%;
+}
+.button{
+  font-size: 40px;
+    color: blue;
+    background-color: #4169e1;
+    border-radius: 12%;
+    cursor: pointer;
+}
+.section{
+
+}
+#usedListSection{
+}
+#usedListSection p, #availableListSection p {border-left-style: double;
+  word-break: break-all;
+padding: 4px;}
+
+.bkgrnd{
+  background-color: chartreuse;
+    opacity: 0.799;
+    font-weight: bold;
+    height: 62%;
+overflow-y: auto;
+}
+.bkgrnd2{
+  background-color: lightsalmon;
+    opacity: 0.799;
+    font-weight: bold;
+    height: 62%;
+overflow-y: auto;
+}
+.stickyLabel{
+  position: sticky;
+    z-index: 100;
+    top: 0;
+    background-color: yellow;
+    opacity: 1;
+    text-align: center;
+}
