@@ -1,5 +1,5 @@
 body {
-  background-image: url(assets/bg2.jpg);
+  background-image: url(assets/bg8.jpg);
   background-position:  right bottom;
   background-repeat: no-repeat no-repeat;
   background-size: 100% 100%;
@@ -45,7 +45,7 @@ html {
 }
 .footer {
    position: fixed;
-   left: 37%;
+   left: 65%;
    bottom: 0;
    width: 25%;
    text-align: center;
@@ -53,10 +53,11 @@ html {
 }
 .button{
   font-size: 40px;
-    color: blue;
-    background-color: #4169e1;
-    border-radius: 12%;
+    color: #143A65;
+    background-color: #99D9EA;
     cursor: pointer;
+    border-color: #99D9EA;
+    border-radius: 6px;
 }
 .section{
 
@@ -75,7 +76,7 @@ padding: 4px;}
 overflow-y: auto;
 }
 .bkgrnd2{
-  background-color: lightsalmon;
+  background-color: #99D9EA;
     opacity: 0.799;
     font-weight: bold;
     height: 62%;
